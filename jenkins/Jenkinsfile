@@ -32,6 +32,13 @@ pipeline {
             }
         }
 
+        stage('cpu detail') {
+            steps {
+                sh'lscpu'
+            }
+        }
+
+
 
            
          
